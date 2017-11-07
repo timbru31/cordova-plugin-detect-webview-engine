@@ -4,6 +4,10 @@
   "description": "Cordova plugin to determine whether the application is using UIWebView or WKWebView engine",
   "author": "Tim Brust <github@timbrust.de>",
   "license": "MIT",
+  "repository": "timbru31/cordova-plugin-detect-webview-engine",
+  "bugs": {
+    "url": "https://github.com/timbru31/cordova-plugin-detect-webview-engine/issues"
+  },
   "scripts": {
     "lint": "tslint -c tslint.json 'www/**/*.ts' && swiftlint",
     "prebulish": "tsc",
