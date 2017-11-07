@@ -1,0 +1,42 @@
+{
+  "name": "cordova-plugin-detect-webview-engine",
+  "version": "0.1.0",
+  "description": "Cordova plugin to determine whether the application is using UIWebView or WKWebView engine",
+  "author": "Tim Brust <github@timbrust.de>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint -c tslint.json 'www/**/*.ts' && swiftlint",
+    "prebulish": "tsc",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "@types/cordova": "^0.0.34",
+    "standard-version": "^4.2.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.1"
+  },
+  "cordova": {
+    "id": "cordova-plugin-detect-webview-engine",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "0.1.0": {
+        "cordova": ">= 6.4.0",
+        "cordova-ios": ">=4.3.0"
+      }
+    }
+  },
+  "keywords": [
+    "cordova",
+    "cordova-plugin",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "engine",
+    "webview",
+    "wkwebview",
+    "uiwebview"
+  ]
+}

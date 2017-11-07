@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-detect-webview-engine" version="0.1.0">
+    <name>DetectWebViewEngine</name>
+    <description>Cordova plugin to determine whether the application is using UIWebView or WKWebView engine</description>
+    <author>Tim Brust</author>
+    <license>MIT</license>
+    <keywords>cordova,ios,webview,wkwebview,uiwebview</keywords>
+
+    <engines>
+        <engine name="cordova" version=">=6.4.0" />
+        <engine name="cordova-ios" version=">=4.3.0" />
+    </engines>
+
+    <js-module src="dist/www/detect-webview-engine.js" name="DetectWebViewEngine">
+        <clobbers target="cordova.plugins.webviewEngine" />
+    </js-module>
+
+    <platform name="ios">
+        <pods-config use-frameworks="true" />
+        <config-file target="config.xml" parent="/*">
+            <feature name="DetectWebViewEngine">
+                <param name="ios-package" value="DetectWebViewEngine" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/ios/DetectWebViewEngine.swift" />
+
+        <dependency id="cordova-plugin-add-swift-support" version="^1.7.0" />
+    </platform>
+</plugin>
