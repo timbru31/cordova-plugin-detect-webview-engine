@@ -10,8 +10,8 @@
   },
   "scripts": {
     "lint": "tslint -c tslint.json 'www/**/*.ts' && swiftlint",
-    "prepublish": "rm -rf dist && tsc",
-    "prerelease": "rm -rf dist && tsc",
+    "build": "rm -rf dist && tsc",
+    "prerelease": "npm run build",
     "release": "standard-version"
   },
   "devDependencies": {
