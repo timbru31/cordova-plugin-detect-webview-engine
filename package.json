@@ -10,7 +10,7 @@
   },
   "scripts": {
     "lint": "tslint -c tslint.json 'www/**/*.ts' && swiftlint",
-    "prebulish": "rm -rf dist && tsc",
+    "prepublish": "rm -rf dist && tsc",
     "prerelease": "rm -rf dist && tsc",
     "release": "standard-version"
   },

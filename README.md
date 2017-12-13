@@ -18,24 +18,28 @@
 
 ### Installation
 
+#### from npm (recommended)
 `$ cordova plugin add cordova-plugin-detect-webview-engine`
+
+#### from git (unstable)
+`$ cordova plugin add https://github.com/timbru31/cordova-plugin-detect-webview-engine.git`
 
 ### Usage
 
 #### Check for UIWebView
 
 ```js
-cordova.plugins.webviewEngine.isUIWebView(isUIWebView => {
+cordova.plugins.webviewEngine.isUIWebView().then(isUIWebView => {
     // returns true or false
-})
+});
 ```
 
 #### Check for WKWebView
 
 ```js
-cordova.plugins.webviewEngine.isWKWebView(isWKWebView => {
+cordova.plugins.webviewEngine.isWKWebView().then(isWKWebView => {
     // returns true or false
-})
+});
 ```
 ---
 Built by (c) Tim Brust and contributors. Released under the MIT license.

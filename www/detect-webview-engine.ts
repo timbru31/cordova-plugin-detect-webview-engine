@@ -1,12 +1,16 @@
 import { exec } from 'cordova';
 
 class DetectWebViewEngine {
-    static isUIWebView(successCallback: any, errorCallback: any) {
-        exec(successCallback, errorCallback, 'DetectWebViewEngine', 'isUIWebView', []);
+    static isUIWebView() {
+        return new Promise<boolean>((resolve, reject) => {
+            exec(resolve, reject, 'DetectWebViewEngine', 'isUIWebView', []);
+        });
     }
 
-    static isWKWebView(successCallback: any, errorCallback: any) {
-        exec(successCallback, errorCallback, 'DetectWebViewEngine', 'isWKWebView', []);
+    static isWKWebView() {
+        return new Promise<boolean>((resolve, reject) => {
+            exec(resolve, reject, 'DetectWebViewEngine', 'isWKWebView', []);
+        });
     }
 }
 
