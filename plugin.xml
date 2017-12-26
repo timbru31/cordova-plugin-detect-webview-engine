@@ -25,6 +25,6 @@
 
         <source-file src="src/ios/DetectWebViewEngine.swift" />
 
-        <dependency id="cordova-plugin-add-swift-support" version="^1.7.0" />
+        <dependency id="cordova-plugin-add-swift-support" version="^1.7.1" />
     </platform>
 </plugin>
