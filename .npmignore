@@ -1,2 +1,11 @@
+.git/
 .DS_Store
 node_modules/
+.github/
+.editorconfig
+.swiftlint.yml
+.travis.yml
+CHANGELOG.md
+tsconfig.json
+tslint.json
+www/
