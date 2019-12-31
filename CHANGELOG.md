@@ -1,6 +1,14 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [2.0.0](https://github.com/timbru31/cordova-plugin-detect-webview-engine/compare/v1.0.1...v2.0.0) (2019-12-31)
+
+
+### Bug Fixes
+
+* cordovaDependencies version ([be636ad](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/be636ad19c2b3d692c9f2b69697ea259f5501aa5))
+* increase line-length limit to 140 chars ([3e71abc](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/3e71abc55bf5939c691f62d4d889617cc3350ecb))
 
 <a name="1.0.1"></a>
 
