@@ -28,6 +28,10 @@
   },
   "engines": {
     "cordovaDependencies": {
+      "2.0.0": {
+        "cordova": ">= 9.0.0",
+        "cordova-ios": ">=5.0.0"
+      },
       "1.0.1": {
         "cordova": ">= 6.4.0",
         "cordova-ios": ">=4.3.0"
