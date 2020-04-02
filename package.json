@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-detect-webview-engine",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "Cordova plugin to determine whether the application is using UIWebView or WKWebView engine",
   "author": "Tim Brust <github@timbrust.de>",
   "license": "MIT",
