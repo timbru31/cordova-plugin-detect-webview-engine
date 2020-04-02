@@ -12,7 +12,7 @@
     "lint": "tslint -c tslint.json 'www/**/*.ts' && swiftlint",
     "build": "rm -rf dist && tsc",
     "prerelease": "npm run build",
-    "release": "standard-version"
+    "release": "standard-version -s -a"
   },
   "devDependencies": {
     "@types/cordova": "^0.0.34",
