@@ -16,7 +16,6 @@
     </js-module>
 
     <platform name="ios">
-        <pods-config use-frameworks="true" />
         <config-file target="config.xml" parent="/*">
             <feature name="DetectWebViewEngine">
                 <param name="ios-package" value="DetectWebViewEngine" />
