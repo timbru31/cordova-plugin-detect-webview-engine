@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.1](https://github.com/timbru31/cordova-plugin-detect-webview-engine/compare/v3.0.0...v3.0.1) (2020-08-01)
+
+### Bug Fixes
+
+-   removes leftover pod config setting ([b6971a0](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/b6971a0a7ace98e1be078ed7023cda558763272b))
+
+### Build System
+
+-   [security] re-build lockfiles ([d4a6496](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/d4a6496dacde97b62004f67fc515230f8446072a))
+-   **deps-dev:** bump prettier from 2.0.2 to 2.0.4 ([8694894](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/8694894c03cd0b5c95f747695a516bb87f92a4c3))
+-   **deps-dev:** bump prettier from 2.0.4 to 2.0.5 ([fc75391](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/fc753911f0d235c15960903b5a462630f38e8c07))
+-   **deps-dev:** bump replace from 1.1.5 to 1.2.0 ([0bf996c](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/0bf996c1755fe121e1beb6dceea02cc2e4f52166))
+-   **deps-dev:** bump standard-version from 7.1.0 to 8.0.0 ([#64](https://github.com/timbru31/cordova-plugin-detect-webview-engine/issues/64)) ([801e26a](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/801e26ab4bfcc8e96a059caafedc4c414a89e22a))
+-   **deps-dev:** bump standard-version from 8.0.0 to 8.0.1 ([0dfdf2c](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/0dfdf2c07265a2a1d3832eb52ab8339e3db112dd))
+-   **deps-dev:** bump standard-version from 8.0.1 to 8.0.2 ([447dda9](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/447dda951938b69fde3cf714423660b1a9260d5d))
+-   **deps-dev:** bump tslint from 6.1.1 to 6.1.2 ([b06e3fc](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/b06e3fc7dad63e321f0a4aa4182ff76d182b9b7e))
+-   **deps-dev:** bump tslint from 6.1.2 to 6.1.3 ([#73](https://github.com/timbru31/cordova-plugin-detect-webview-engine/issues/73)) ([7760d07](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/7760d07e6eb0c939fe51c2fc2a8ebf6b3ed888bd))
+-   **deps-dev:** bump typescript from 3.8.3 to 3.9.2 ([#65](https://github.com/timbru31/cordova-plugin-detect-webview-engine/issues/65)) ([6552853](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/65528532bb4ab58551c7361e4b0a5c601a1fb154))
+-   **deps-dev:** bump typescript from 3.9.2 to 3.9.3 ([#66](https://github.com/timbru31/cordova-plugin-detect-webview-engine/issues/66)) ([f8d7022](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/f8d70226e1700ffc613006dc8f89e8172467b9be))
+-   **deps-dev:** bump typescript from 3.9.3 to 3.9.5 ([#68](https://github.com/timbru31/cordova-plugin-detect-webview-engine/issues/68)) ([7fb6c2e](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/7fb6c2e08ec2d355ef5205a808c79dadfb51b169))
+-   **deps-dev:** bump typescript from 3.9.5 to 3.9.6 ([#69](https://github.com/timbru31/cordova-plugin-detect-webview-engine/issues/69)) ([e897234](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/e89723439ae5ee7684aa19c5d29a63bff0643617))
+-   **deps-dev:** bump typescript from 3.9.6 to 3.9.7 ([215d7d2](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/215d7d2f4a73d96412da799dbb8ca79b97fc1576))
+-   commit and sign all files ([f90dac5](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/f90dac53766bb951b1ebaa0fe28a1daa643e8a67))
+-   optimizes npmignore file ([49a6d91](https://github.com/timbru31/cordova-plugin-detect-webview-engine/commit/49a6d91786ebfac397acdba913cc186c31b706c8))
+
 ## [3.0.0](https://github.com/timbru31/cordova-plugin-detect-webview-engine/compare/v1.0.1...v3.0.0) (2020-04-02)
 
 ### ⚠ BREAKING CHANGES
