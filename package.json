@@ -18,7 +18,7 @@
     "@types/cordova": "^0.0.34",
     "prettier": "^2.0.2",
     "replace": "^1.1.5",
-    "standard-version": "^8.0.0",
+    "standard-version": "^9.0.0",
     "tslint": "^6.1.1",
     "typescript": "^3.8.3"
   },
