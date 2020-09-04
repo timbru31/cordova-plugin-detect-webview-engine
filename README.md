@@ -1,6 +1,7 @@
 # cordova-plugin-detect-webview-engine
 
-[![Build Status](https://travis-ci.org/timbru31/cordova-plugin-detect-webview-engine.svg?branch=master)](https://travis-ci.org/timbru31/cordova-plugin-detect-webview-engine)
+[![Linting](https://github.com/timbru31/cordova-plugin-detect-webview-engine/workflows/Linting/badge.svg)](https://github.com/timbru31/cordova-plugin-detect-webview-engine/actions?query=workflow%3ALinting)
+[![Security](https://github.com/timbru31/cordova-plugin-detect-webview-engine/workflows/Security/badge.svg)](https://github.com/timbru31/cordova-plugin-detect-webview-engine/actions?query=workflow%3ASecurity)
 
 [![Dependency Status](https://david-dm.org/timbru31/cordova-plugin-detect-webview-engine.svg)](https://david-dm.org/timbru31/cordova-plugin-detect-webview-engine)
 [![devDependency Status](https://david-dm.org/timbru31/cordova-plugin-detect-webview-engine/dev-status.svg)](https://david-dm.org/timbru31/cordova-plugin-detect-webview-engine#info=devDependencies)
@@ -32,7 +33,7 @@
 #### Check for UIWebView
 
 ```js
-cordova.plugins.webviewEngine.isUIWebView().then(isUIWebView => {
+cordova.plugins.webviewEngine.isUIWebView().then((isUIWebView) => {
     // returns true or false
 });
 ```
@@ -40,7 +41,7 @@ cordova.plugins.webviewEngine.isUIWebView().then(isUIWebView => {
 #### Check for WKWebView
 
 ```js
-cordova.plugins.webviewEngine.isWKWebView().then(isWKWebView => {
+cordova.plugins.webviewEngine.isWKWebView().then((isWKWebView) => {
     // returns true or false
 });
 ```
