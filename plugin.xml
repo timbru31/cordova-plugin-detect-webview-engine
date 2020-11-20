@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-detect-webview-engine" version="3.0.1">
     <name>DetectWebViewEngine</name>
-    <description>Cordova plugin to determine whether the application is using UIWebView or WKWebView engine</description>
+    <description>Apache Cordova plugin to determine whether the application is using UIWebView or WKWebView engine</description>
     <author>Tim Brust</author>
     <license>MIT</license>
     <keywords>cordova,ios,webview,wkwebview,uiwebview</keywords>

@@ -12,7 +12,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![npm](https://img.shields.io/npm/v/cordova-plugin-detect-webview-engine.svg)](https://www.npmjs.com/package/cordova-plugin-detect-webview-engine)
 
-#### Cordova plugin to determine whether the application is using UIWebView or WKWebView engine
+#### Apache Cordova plugin to determine whether the application is using UIWebView or WKWebView engine
 
 ### Supported platforms
 
