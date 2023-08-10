@@ -1,17 +1,21 @@
 name: Linting
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - master
+  pull_request:
 
 jobs:
   build:
     runs-on: macos-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v3.5.3
 
       - uses: actions/setup-node@v3.7.0
         with:
-          node-version: '12.x'
+          node-version: '18.x'
 
       - name: Environment Information
         run: |
