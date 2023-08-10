@@ -3,12 +3,9 @@
 [![Linting](https://github.com/timbru31/cordova-plugin-detect-webview-engine/workflows/Linting/badge.svg)](https://github.com/timbru31/cordova-plugin-detect-webview-engine/actions?query=workflow%3ALinting)
 [![Security](https://github.com/timbru31/cordova-plugin-detect-webview-engine/workflows/Security/badge.svg)](https://github.com/timbru31/cordova-plugin-detect-webview-engine/actions?query=workflow%3ASecurity)
 
-[![Dependency Status](https://david-dm.org/timbru31/cordova-plugin-detect-webview-engine.svg)](https://david-dm.org/timbru31/cordova-plugin-detect-webview-engine)
-[![devDependency Status](https://david-dm.org/timbru31/cordova-plugin-detect-webview-engine/dev-status.svg)](https://david-dm.org/timbru31/cordova-plugin-detect-webview-engine#info=devDependencies)
 [![Known Vulnerabilities](https://snyk.io/test/github/timbru31/cordova-plugin-detect-webview-engine/badge.svg)](https://snyk.io/test/github/timbru31/cordova-plugin-detect-webview-engine)
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](https://commitizen.github.io/cz-cli/)
-[![Dependabot Status](https://api.dependabot.com/badges/status?host=github&repo=timbru31/cordova-plugin-detect-webview-engine)](https://dependabot.com)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![npm](https://img.shields.io/npm/v/cordova-plugin-detect-webview-engine.svg)](https://www.npmjs.com/package/cordova-plugin-detect-webview-engine)
 
