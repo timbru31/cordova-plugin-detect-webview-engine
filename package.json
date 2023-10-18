@@ -17,7 +17,7 @@
     "release": "standard-version -s -a"
   },
   "devDependencies": {
-    "@types/cordova": "^11.0.1",
+    "@types/cordova": "^11.0.2",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "@typescript-eslint/parser": "^6.8.0",
     "eslint": "^8.51.0",
