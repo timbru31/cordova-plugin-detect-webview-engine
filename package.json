@@ -17,7 +17,7 @@
     "release": "commit-and-tag-version -s -a"
   },
   "devDependencies": {
-    "@eslint/js": "^9.10.0",
+    "@eslint/js": "^9.11.0",
     "@types/eslint__js": "^8.42.3",
     "@types/cordova": "^11.0.3",
     "commit-and-tag-version": "^12.4.4",
