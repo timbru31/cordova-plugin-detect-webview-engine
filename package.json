@@ -25,7 +25,7 @@
     "prettier": "^3.6.2",
     "replace": "^1.2.2",
     "typescript": "^5.9.3",
-    "typescript-eslint": "^8.46.3"
+    "typescript-eslint": "^8.46.4"
   },
   "cordova": {
     "id": "cordova-plugin-detect-webview-engine",
